@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.myimage{
+    background-image: url("./azxc.jpg");
+    opacity: 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    padding: 1px;
+}
+pre{
+    background-color: black;
+    opacity: 85%;
+    font-size: larger;
+}
+.myflexheader{
+    display: flex;
+    background-image: url("./azxc.jpg");
+    opacity: 85%;
+    background-color: black;
+    justify-content:flex-end;
+    align-items: center;
+    color: rgb(255,255,255);
+    height: 70px;
+    width: 100vw;
+}
+.myflexform{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 14px;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 430px;
+    width: 420px;
+    margin-left: 36vw;
+    margin-top: 20vh;
+    background-color: black;
+    opacity: 85%;
+    z-index: 6;
+}
+.myinput{
+    background-color: transparent;
+    color: white;
+    width: 400px;
+    height: 30px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: large;
+    overflow: none;
+}
+
+.butto{
+    background-color: transparent;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    
+}
+
+.butto:hover{
+    background-color: red;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+h1{
+    color: rgb(255,255,255);
+    font-size: 40px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .myflexheader {
+        display: flex;
+        background-color: #2874f0;
+        justify-content: flex-end;
+        align-items: center;
+        color: rgb(255,255,255);
+        height: 70px;
+        width: 100vw;
+    }
+
+    .myimage {
+        background-image: url("./azx.avif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        padding: 1px;
+    }
+
+    .myflexform {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 14px;
+        border: 2px solid black;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        width: 361px;
+        margin-left: 25px;
+        margin-top: 16vh;
+    }
+
+    .myinput {
+        background-color: transparent;
+        width: 305px;
+        height: 30px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        font-size: large;
+        overflow: hidden;
+    }
+    
+    .butto {
+        background-color: transparent;
+        width: 189px;
+        height: 40px;
+        border-radius: 3px;
+    }
+    
+    
+}
+
